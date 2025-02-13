@@ -6,9 +6,9 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
+        <div class="navbar" id="back-to-top">
             <div class="navbar-item">
-                <span><img class="logoPic" src="logo.png" alt="Logo" width="50"></span>
+                <span><img class="logoPic" src="logo.png" alt="Logo"></span>
             </div>
             
             <div class="navbar-item">
@@ -33,25 +33,63 @@
         </div>  
     </header>
     <main>
-        <section id="photo">
-            <h2>Featured Photo</h2>
-            <p>This is where the featured photo will be displayed.</p>
-        </section>
-        <section id="projects">
-            <h2>Previous Projects</h2>
-            <p>Details about past projects.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <p>A list of skills.</p>
-        </section>
-        <section id="biography">
-            <h2>Autobiography</h2>
-            <p>A brief autobiography.</p>
-        </section>
+        <div class="main-div">
+            <section id="photo">
+                <h2 class="header2-div">Featured Photo</h2>
+                <img class="featured-photo" src="featured-photo.jpg" alt="feat-photo">
+                <p> ^ Me playing Ultimate Frisbee</p>
+            </section>
+    
+            <section id="projects">
+                <h2 class="header2-div">Previous Projects</h2>
+                <ul>
+                    <li>Designed and developed some ideas for website designs</li>
+                    <li>Developed a discord bot for the purpose of studying</li>
+                    <li>Conducted a research on how discord bots could potentially affect productivity</li>
+                </ul>
+            </section>
+    
+            <div class="skills-biography-flexbox">
+                <section id="skills" class="skills-biography-flexbox-child">
+                    <h2 class="header2-div">Skills</h2>
+                    <ul>
+                        <li>Programming Languages (Java, Python, C, JS, SQL)</li>
+                        <li>Hard-working</li>
+                        <li>Communication Skills</li>
+                        <li>Flexible</li>
+                        <li>Adaptable</li>
+                        <li>Teamwork</li>
+                        <li>Critical Thinking</li>
+                        <li>Athletic (above average)</li>
+                    </ul>
+                </section>
+        
+                <section id="biography" class="skills-biography-flexbox-child">
+                    <h2 class="header2-div">Autobiography</h2>
+                    <p> My name is Nestor Victus T. Bulatao III, but I usually go by Nevi.
+                        I have always been passionate about Ultimate. I was born and raised in San Fernando, Pampanga.
+                        I went to highschool at Philippine Science High School - Central Luzon Campus, where I developed an interest in Computer Science
+                        Over the years, I have honed my skills both in computer science and sports,  
+                        leading me to pursue computer science in College. </p>
+                
+                    <p>My goal is to finish my program of BS Computer Science in college, and then pursue another degree in BS Kinesiology after establish financial stability.  </p>
+                
+                    <p>When I'm not working, I enjoy playing Ultimate, strengthening my body, and running.  
+                        I believe in continuous growth and always seek opportunities to improve and inspire others.</p>   
+                </section>
+            </div>
+            
+        </div>
+        
+
     </main>
     <footer id="footer">
-        <p>&copy; 2025 My Webpage</p>
+        <div class="footer-div">   
+            <p>&copy; Copyrighted by Nestor Victus T. Bulatao III</p>
+            <p>Los Banos, Laguna</p>
+            <p>09273964535</p>
+            <p><a href="#back-to-top" class="nav-href">Back to top</a></p>
+        </div>
     </footer>
 </body>
 </html>

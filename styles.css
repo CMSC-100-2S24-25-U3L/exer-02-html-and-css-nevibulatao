@@ -1,7 +1,6 @@
 .navbar {
     display: flex;
     flex-direction: row;
-
     align-items: center;
     justify-content: space-evenly;
 }
@@ -19,9 +18,44 @@
     padding: 20px 20px 20px 20px;
 }
 
+.logoPic {
+    width: 50px;
+
+}
+
+.skills-biography-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main-div {
+    justify-items: center;
+}
+
+.header2-div{
+    background-color: #d76f30;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 body {
     background-color: #172d13;
     color: beige;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.skills-biography-flexbox-child{
+    width: 50%;
+    padding: none;
+    margin: 1%
+}
+
+.footer-div {
+    padding-left: 20px;
+    margin:none;
+    justify-content:left;
+    align-items:baseline;
 }
